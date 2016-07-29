@@ -1,41 +1,25 @@
-# Ruby on Rails Tutorial sample application
+# Sample App for Giles 2016 :whale:
+This is a repository containing the source code of my own personal project, **Giles 2016**, which is a spinoff of
+the Michael Hartl Ruby on Rails tutorial. The project has been hosted via Heroku and can be seen [here](https://guarded-wave-57585.herokuapp.com/).
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+**Note: The project is still under construction**
 
-## License
+###About
+**Giles 2016** is a web application that is intended to produce a curated FAQ list for users.
 
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+As undergraduate resident assistant of 100+ freshmen at Duke University's Giles dormitory, 
+I wanted to facilitate the adjustment process for incoming freshmen and began constructing this application in Summer 2016.
 
-## Getting started
+###Features
+Each user will have an anonymous account with which she will post questions that other users(except the admin) cannot see.      
+Admins will answer each question, and whenever they see a question that they feel would benefit other students as well,
+they will move this question to the **Front Page**, which is a Facebook News Feed-like default page that users see as soon as they log in.
 
-To get started with the app, clone the repo and then install the needed gems:
+Questions that are not moved to the Front Page will still be answered, but only the person who asked it will be able to see the answer
+through her personal profile page.
 
-```
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+###Engineering
++ A customized Ruby regex has been implemented to only accept unique emails in the form of Duke NetIDs, ie "ab123@duke.edu"
++ Users will be linked to the **Front Page**, where important questions will be laid out in chronological order
++ Users will each have a profile page where they can see past questions that they've asked, as well as answers to each question
++ Site will be redesigned using customized stylesheets

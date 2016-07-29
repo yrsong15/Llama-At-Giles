@@ -1,6 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
 
 /* universal */
 
@@ -73,7 +83,7 @@ p {
 
 /* footer */
 
-footer {
+  footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
@@ -81,8 +91,9 @@ footer {
   a{
     color: #555;
     
-    &:hover{
-      color: #222;
+      &:hover{
+        color: #222;
+      }
     }
   }
   
@@ -98,4 +109,13 @@ footer {
       margin-left: 15px;
     }
   }
-}
+  
+  /* miscellaneous */
+  
+  .debug_dump{
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    @include box_sizing;
+  }
