@@ -1,11 +1,11 @@
-# Sample App for Giles 2016 :whale:
-This is a repository containing the source code of my own personal project, **Giles 2016**, which is a spinoff of
+# Llama@Giles :camel:
+This is a repository containing the source code of my own personal project, **Llama@Giles**, which is a spinoff of
 the Michael Hartl Ruby on Rails tutorial. The project has been hosted via Heroku and can be seen [here](https://guarded-wave-57585.herokuapp.com/).
 
 **Note: The project is still under construction.**
 
 ##About
-**Giles 2016** is a web application that is intended to produce a curated FAQ list for users.
+**Llama@Giles** is a web application that is intended to produce a curated FAQ list for users.
 
 As undergraduate resident assistant of 100+ freshmen at Duke University's Giles dormitory, 
 I wanted to facilitate the adjustment process for incoming freshmen and began constructing this application in Summer 2016.
