@@ -1,6 +1,6 @@
 # Llama@Giles :camel:
-This is a repository containing the source code of my own personal project, **Llama@Giles**, which is a spinoff of
-the Michael Hartl Ruby on Rails tutorial. The project has been hosted via Heroku and can be seen [here](https://guarded-wave-57585.herokuapp.com/).
+This is a repository containing the source code of my personal project, **Llama@Giles**, which is a spinoff of
+the Michael Hartl Ruby on Rails tutorial. The project has been hosted via Heroku and [can be seen here](https://guarded-wave-57585.herokuapp.com/).
 
 **Note: The project is still under construction.**
 
